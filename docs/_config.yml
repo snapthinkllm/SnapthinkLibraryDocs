@@ -1,0 +1,35 @@
+theme: jekyll-theme-cayman
+title: SnapThink Documentation
+description: Your Private AI Assistant for Document Analysis and Data Science
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+future: true
+jailed: false
+
+gfm_quirks: paragraph_end
+
+github:
+  repository_url: https://github.com/snapthinkllm/SnapthinkLibraryDocs
